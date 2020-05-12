@@ -59,3 +59,10 @@ npm install tsc-watch --d
 
 ![image-20200513000259349](/Users/eunjung/Documents/typechain/images//image-20200513000259349.png)
 
+- Class
+  - Interface 는 JS로 컴파일 되지 않음 => JS 에 포함시키고 싶을 때는 `Class` 를 사용
+    - `Public` / `Private` :  외부에서 해당 property 에 접근 가능 / 불가능 => JS 로는 컴파일 되지 않는 부분임
+  - TS 측면에서는 `Interface` 를 사용하는 것이 보다 안정적
+  - React, Express, Node 등에 사용할 때는 `Class` 가 필요한 경우가 종종 있음
+
+![image-20200513001039565](/Users/eunjung/Documents/typechain/images//image-20200513001039565.png)
