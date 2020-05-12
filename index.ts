@@ -1,20 +1,13 @@
-const name = "Jenny",
-  age = 29,
-  gender = "female";
-
-const sayHi1 = (name, age, gender) => {
-  console.log(
-    `Hello ${name}, you are ${age}, you are a ${gender}`
-  );
+const sayHi = (
+  name: string,
+  age: number,
+  gender: string
+): string => {
+  return `Hello ${name}, you are ${age}, you are a ${gender}`;
 };
 
-const sayHi2 = (name, age, gender?) => {
-  console.log(
-    `Hello ${name}, you are ${age}, you are a ${gender}`
-  );
-};
-
-sayHi1(name, age);
-sayHi2(name, age);
+sayHi("Jenny", 29, "female");
+// sayHi("Jenny", 29, true)
+// sayHi("Jenny", 29)
 
 export {};

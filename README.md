@@ -38,3 +38,9 @@ tsc
 
 ![image-20200512225009656](/Users/eunjung/Documents/typechain/images//image-20200512225009656.png)
 
+- Set assignable type
+
+![image-20200512230205523](/Users/eunjung/Documents/typechain/images//image-20200512230205523.png)
+
+![image-20200512225954638](/Users/eunjung/Documents/typechain/images//image-20200512225954638.png)
+
