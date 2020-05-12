@@ -55,3 +55,7 @@ npm install tsc-watch --d
 
 ![image-20200512225954638](/Users/eunjung/Documents/typechain/images//image-20200512225954638.png)
 
+- Interface (object handling)
+
+![image-20200513000259349](/Users/eunjung/Documents/typechain/images//image-20200513000259349.png)
+
