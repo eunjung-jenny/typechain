@@ -4,10 +4,11 @@ Learning Typescript by making a Blockchain with it (with Nicolas, Nomad Academy)
 
 ## 1. 환경설정
 
-- TS 추가
+- TS 설치
 
 ```bash
 npm -g install typescript # package-lock.json 자동 생성
+npm add typescript
 ```
 
 - `tsconfig.json`: TS -> JS 변환 규칙 명시
@@ -27,6 +28,16 @@ tsc
     "prestart": "tsc"
   }
 ```
+
+- `tsc-watch` 설치: TS 변경시 자동으로 컴파일
+
+```bash
+npm install tsc-watch --d
+```
+
+![image-20200512231539956](/Users/eunjung/Documents/typechain/images//image-20200512231539956.png)
+
+
 
 ## 2. 실습
 
