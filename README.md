@@ -27,3 +27,14 @@ tsc
     "prestart": "tsc"
   }
 ```
+
+## 2. 실습
+
+- Protect a developer from stupid mistakes
+
+![image-20200512224601004](/Users/eunjung/Documents/typechain/images//image-20200512224601004.png)
+
+- Optional parameters (w/ `?`)
+
+![image-20200512225009656](/Users/eunjung/Documents/typechain/images//image-20200512225009656.png)
+
