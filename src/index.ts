@@ -7,8 +7,9 @@ class Block {
     data: string,
     timestamp: number
   ): string =>
-    CryptoJS.SHA256(index + previousHash + data + timestamp)
-      .toString;
+    CryptoJS.SHA256(
+      index + previousHash + data + timestamp
+    ).toString();
 
   public index: number;
   public hash: string;
