@@ -2,7 +2,7 @@
 
 Learning Typescript by making a Blockchain with it (with Nicolas, Nomad Academy)
 
-## 1. 환경설정
+## 1. TS 환경설정
 
 - TS 설치
 
@@ -69,4 +69,11 @@ npm install tsc-watch --d
 
 ## 3. 유사 블록체인 구현
 
--
+- 암호화(해쉬 계산)
+
+  - `$ npm install crypto-js`
+  - `import * as CryptoJS from "crypto-js"` : TS 의 import 방식 JS 와 다름
+  - `CryptoJS.SHA256([해쉬 계산에 사용할 데이터]).toString;`
+
+- class 의 `static method`
+  - 인스턴스 없이 호출 가능
