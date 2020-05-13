@@ -35,29 +35,29 @@ tsc
 npm install tsc-watch --d
 ```
 
-![image-20200512231539956](/Users/eunjung/Documents/typechain/images//image-20200512231539956.png)
+![image-20200512231539956](/Users/eunjung/Documents/typechain/images/image-20200512231539956.png)
 
 ## 2. 실습
 
 - Protect a developer from stupid mistakes
 
-![image-20200512224601004](/Users/eunjung/Documents/typechain/images//image-20200512224601004.png)
+![image-20200512224601004](/Users/eunjung/Documents/typechain/images/image-20200512224601004.png)
 
 - Optional parameters (w/ `?`)
 
-![image-20200512225009656](/Users/eunjung/Documents/typechain/images//image-20200512225009656.png)
+![image-20200512225009656](/Users/eunjung/Documents/typechain/images/image-20200512225009656.png)
 
 - Set assignable type
   - array: `string[]`, `number[]` 와 같이 표현
   - 리턴값이 없는 경우: `void`
 
-![image-20200512230205523](/Users/eunjung/Documents/typechain/images//image-20200512230205523.png)
+![image-20200512230205523](/Users/eunjung/Documents/typechain/images/image-20200512230205523.png)
 
-![image-20200512225954638](/Users/eunjung/Documents/typechain/images//image-20200512225954638.png)
+![image-20200512225954638](/Users/eunjung/Documents/typechain/images/image-20200512225954638.png)
 
 - Interface (object handling)
 
-![image-20200513000259349](/Users/eunjung/Documents/typechain/images//image-20200513000259349.png)
+![image-20200513000259349](/Users/eunjung/Documents/typechain/images/image-20200513000259349.png)
 
 - Class
   - Interface 는 JS로 컴파일 되지 않음 => JS 에 포함시키고 싶을 때는 `Class` 를 사용
@@ -65,7 +65,7 @@ npm install tsc-watch --d
   - TS 측면에서는 `Interface` 를 사용하는 것이 보다 안정적
   - React, Express, Node 등에 사용할 때는 `Class` 가 필요한 경우가 종종 있음
 
-![image-20200513001039565](/Users/eunjung/Documents/typechain/images//image-20200513001039565.png)
+![image-20200513001039565](/Users/eunjung/Documents/typechain/images/image-20200513001039565.png)
 
 ## 3. 유사 블록체인 구현
 
