@@ -37,8 +37,6 @@ npm install tsc-watch --d
 
 ![image-20200512231539956](/Users/eunjung/Documents/typechain/images//image-20200512231539956.png)
 
-
-
 ## 2. 실습
 
 - Protect a developer from stupid mistakes
@@ -50,6 +48,8 @@ npm install tsc-watch --d
 ![image-20200512225009656](/Users/eunjung/Documents/typechain/images//image-20200512225009656.png)
 
 - Set assignable type
+  - array: `string[]`, `number[]` 와 같이 표현
+  - 리턴값이 없는 경우: `void`
 
 ![image-20200512230205523](/Users/eunjung/Documents/typechain/images//image-20200512230205523.png)
 
@@ -61,7 +61,7 @@ npm install tsc-watch --d
 
 - Class
   - Interface 는 JS로 컴파일 되지 않음 => JS 에 포함시키고 싶을 때는 `Class` 를 사용
-    - `Public` / `Private` :  외부에서 해당 property 에 접근 가능 / 불가능 => JS 로는 컴파일 되지 않는 부분임
+    - `Public` / `Private` : 외부에서 해당 property 에 접근 가능 / 불가능 => JS 로는 컴파일 되지 않는 부분임
   - TS 측면에서는 `Interface` 를 사용하는 것이 보다 안정적
   - React, Express, Node 등에 사용할 때는 `Class` 가 필요한 경우가 종종 있음
 
