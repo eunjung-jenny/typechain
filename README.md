@@ -66,3 +66,7 @@ npm install tsc-watch --d
   - React, Express, Node 등에 사용할 때는 `Class` 가 필요한 경우가 종종 있음
 
 ![image-20200513001039565](/Users/eunjung/Documents/typechain/images//image-20200513001039565.png)
+
+## 3. 유사 블록체인 구현
+
+-
