@@ -32,8 +32,17 @@ tsc
 - `tsc-watch` 설치: TS 변경시 자동으로 컴파일
 
 ```bash
-npm install tsc-watch --d
+npm install tsc-watch --dev
 ```
+
+```json
+// package.json 업데이트 
+"scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+```
+
+
 
 ![image-20200512231539956](images/image-20200512231539956.png)
 
